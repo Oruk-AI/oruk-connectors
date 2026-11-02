@@ -1,0 +1,16 @@
+{
+  "name": "oruk-connectors",
+  "description": "Oruk speech analysis tools and skills for coding agents.",
+  "owner": {
+    "name": "Oruk, Inc.",
+    "email": "access@oruk.ai"
+  },
+  "plugins": [
+    {
+      "name": "oruk",
+      "source": "./plugins/oruk",
+      "description": "Transcribe prerecorded English speech and analyze vocal emotion, tone, and speaking style with Oruk.",
+      "version": "1.0.0"
+    }
+  ]
+}

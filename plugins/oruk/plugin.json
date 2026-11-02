@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "oruk",
+  "version": "1.0.0",
+  "description": "Transcribe prerecorded English speech and analyze vocal emotion, tone, and speaking style with Oruk.",
+  "author": {
+    "name": "Oruk, Inc.",
+    "email": "access@oruk.ai",
+    "url": "https://oruk.ai"
+  },
+  "homepage": "https://oruk.ai/docs/mcp",
+  "repository": "https://github.com/Oruk-AI/oruk-connectors",
+  "keywords": [
+    "audio",
+    "speech",
+    "transcription",
+    "tone",
+    "emotion",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Oruk",
+        "shortDescription": "Speech, tone and transcription",
+        "longDescription": "Analyze prerecorded English speech from an audio URL or inline audio bytes. Get transcripts, emotion and speaking-style scores, and speaker turns when requested. Connect to Oruk's hosted MCP server without a local runtime. Discovery works without a key; speech analysis uses a configured API key or a limited temporary trial.",
+        "developerName": "Oruk, Inc.",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://oruk.ai",
+        "privacyPolicyURL": "https://oruk.ai/privacy",
+        "termsOfServiceURL": "https://oruk.ai/terms",
+        "defaultPrompt": [
+          "Use Oruk to transcribe https://oruk.ai/samples/oruk-quickstart.wav and describe the speaker's tone and speaking style. Use oruk-resonance and a temporary trial key if no API key is configured."
+        ],
+        "brandColor": "#F7F7ED",
+        "composerIcon": "./assets/signal-color.png",
+        "logo": "./assets/signal-color.png"
+      }
+    }
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="Signal tile"><title>Signal tile</title><g transform="translate(0 0) scale(1.0)">
+      <defs><linearGradient id="mark-spectrum" x1="4" y1="12" x2="44" y2="36" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#306a78"/><stop offset="25%" stop-color="#249cd1"/><stop offset="44%" stop-color="#454378"/><stop offset="62%" stop-color="#7a4382"/><stop offset="81%" stop-color="#b85a68"/><stop offset="100%" stop-color="#ef8544"/></linearGradient>
+        <mask id="mark-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48" style="mask-type:luminance">
+          <rect width="48" height="48" fill="white"/>
+          <path d="M0 27 C10 27 12 14 19 14 S29 34 36 34 S43 23 48 23" fill="none" stroke="black" stroke-width="3.25"/>
+        </mask>
+      </defs>
+      <rect x="5" y="5" width="38" height="38" rx="1.5" fill="url(#mark-spectrum)" mask="url(#mark-cut)"/>
+    </g></svg>

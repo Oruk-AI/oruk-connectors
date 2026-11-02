@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "oruk": {
+      "type": "http",
+      "url": "https://oruk.ai/mcp"
+    }
+  }
+}

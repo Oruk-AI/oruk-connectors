@@ -1,0 +1,23 @@
+{
+  "name": "oruk",
+  "version": "1.0.0",
+  "description": "Transcribe prerecorded English speech and analyze vocal emotion, tone, and speaking style with Oruk.",
+  "author": {
+    "name": "Oruk, Inc.",
+    "email": "access@oruk.ai",
+    "url": "https://oruk.ai"
+  },
+  "homepage": "https://oruk.ai/docs/mcp",
+  "repository": "https://github.com/Oruk-AI/oruk-connectors",
+  "keywords": [
+    "audio",
+    "speech",
+    "transcription",
+    "tone",
+    "emotion",
+    "mcp"
+  ],
+  "license": "MIT",
+  "icon": "./assets/signal-color.png",
+  "privacyPolicyUrl": "https://oruk.ai/privacy"
+}
